@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/sunny_weather.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    background-position: top center;
+}
+.app-main{
+    width: 50vh;
+    background-color: rgba(186, 213, 236, 0.5);
+    margin:120px auto;
+    text-align: center;
+    padding: 20px;
+}
+.input{
+    height:50px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    color: #582233;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input:focus{
+    background-color:rgba(255,255,255);
+}
+.weather-body{
+    color: #582233;
+    padding: 10px;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 50vh;
+}
+.location{
+    font-weight:bolder;
+}
+.status{
+    padding: 20px;
+}
+.temp{
+    font-size: 3.5rem;
+    font-weight:bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 4px rgb(167, 165, 165);
+    margin: 15px 0px;
+}
+.min-max,.weather{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family:serif;
+}
