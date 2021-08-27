@@ -36,19 +36,19 @@ function showWeatherReport(weather){
     Tdate.innerText=manageDate(todayDate);
 
     if(weatherType.textContent=='Clear'){
-        document.body.style.backgroundImage = "url('/clear_weather.jpg')"
+        document.body.style.backgroundImage = "url('./img/clear_weather.jpg')"
     }
     else if(weatherType.textContent=='Clouds'){
-        document.body.style.backgroundImage = "url('/cloudy_weather.jpg')"
+        document.body.style.backgroundImage = "url('./img/cloudy_weather.jpg')"
     }
     else if(weatherType.textContent=='Rain'){
-        document.body.style.backgroundImage = "url('/rainy.png')"
+        document.body.style.backgroundImage = "url('./img/rainy.png')"
     }
     else if(weatherType.textContent=='Haze'){
-        document.body.style.backgroundImage = "url('/haze.jpg')"
+        document.body.style.backgroundImage = "url('./img/haze.jpg')"
     }
     else if(weatherType.textContent=='Thunderstorm'){
-        document.body.style.backgroundImage = "url('/thunderstorm_weather.jpg')"
+        document.body.style.backgroundImage = "url('./img/thunderstorm_weather.jpg')"
     }
 }
 function manageDate(a){

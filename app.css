@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url("/sunny_weather.jpg");
+    background-image: url("./img/sunny_weather.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
